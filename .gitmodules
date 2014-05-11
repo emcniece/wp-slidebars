@@ -4,3 +4,6 @@
 [submodule "assets/slidebars"]
 	path = assets/slidebars
 	url = git@github.com:adchsm/Slidebars.git
+[submodule "admin"]
+	path = admin
+	url = git://github.com/ReduxFramework/ReduxFramework/
