@@ -1,0 +1,6 @@
+[submodule "assets"]
+	path = assets
+	url = git@github.com:adchsm/Slidebars.git
+[submodule "assets/slidebars"]
+	path = assets/slidebars
+	url = git@github.com:adchsm/Slidebars.git
