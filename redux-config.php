@@ -433,20 +433,19 @@ if (!class_exists('Redux_Framework_wp_slidebars_config')) {
                             'alpha' => '1.0'
                         ),
                         //'output'   => array('left-sidebar'),
-                        'compiler' => array('sb-left'),
+                        'compiler' => array('.sb-left'),
                         'mode'     => 'background',
                     ),
                     array(
                         'id' => 'opt-left-sidebar-width',
-                        'type' => 'slider',
+                        'type' => 'dimensions',
                         'title' => __('Sidebar Width', 'redux-framework-demo'),
                         'subtitle' => __('Sets width for left sidebar.', 'redux-framework-demo'),
                         //'desc' => __('Slider description. Min: 0, max: 300, step: 5, default value: 75', 'redux-framework-demo'),
-                        "default" => 200,
-                        "min" => 0,
-                        "step" => 1,
-                        "max" => 1200,
-                        'display_value' => 'text'
+                        'units' => array('%', 'px', 'em'),
+                        'height' => 'false',
+                        'default' => array('width'=>'200'),
+                        'compiler' => array('.sb-slidebar.sb-right'),
                     ),
                     array(
                         'id'       => 'opt-left-sidebar-widgetarea',
@@ -484,20 +483,19 @@ if (!class_exists('Redux_Framework_wp_slidebars_config')) {
                             'alpha' => '1.0'
                         ),
                         //'output'   => array('sb-right'),
-                        'compiler' => array('sb-right'),
+                        'compiler' => array('.sb-right'),
                         'mode'     => 'background',
                     ),
                     array(
                         'id' => 'opt-right-sidebar-width',
-                        'type' => 'slider',
+                        'type' => 'dimensions',
                         'title' => __('Sidebar Width', 'redux-framework-demo'),
                         'subtitle' => __('Sets width for right sidebar.', 'redux-framework-demo'),
                         //'desc' => __('Slider description. Min: 0, max: 300, step: 5, default value: 75', 'redux-framework-demo'),
-                        "default" => 200,
-                        "min" => 0,
-                        "step" => 1,
-                        "max" => 1200,
-                        'display_value' => 'text'
+                        'units' => array('%', 'px', 'em'),
+                        'height' => 'false',
+                        'default' => array('width'=>'200'),
+                        'compiler' => array('.sb-slidebar.sb-right'),
                     ),
                     array(
                         'id'       => 'opt-right-sidebar-widgetarea',

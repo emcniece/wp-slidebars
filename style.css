@@ -23,6 +23,44 @@ style adjustments to get the basic slidebars-style.css to work within the WP env
 #logo img{
 	height:40px;
 }
+.sb-slidebar .widget{
+	padding:14px;
+}
+.sb-slidebar .widget.widget_nav_menu{
+	padding:0px;
+}
+.sb-slidebar .menu{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.sb-slidebar .menu li{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.sb-slidebar .menu li a {
+	width: 100%;
+	display: inline-block;
+	padding: 1em;
+	color: #f2f2f2;
+}
+.sb-left .menu li a {
+	border-left: 3px solid transparent;
+}
+.sb-left .menu li a:hover {
+	border-left: 3px solid; /* Removes transparent colour, so border colour will be the same as link hover colour. */
+}
+
+.sb-right .menu li a {
+	border-right: 3px solid transparent;
+}
+
+.sb-right .menu li a:hover {
+	border-right: 3px solid; /* Removes transparent colour, so border colour will be the same as link hover colour. */
+}
 
 
 @media screen and ( max-width: 782px ) {
