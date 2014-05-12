@@ -1,0 +1,16 @@
+/*
+ Theme Name:   WP Slidebars Child
+ Theme URI:    http://wordpress.org/themes/wp-slidebars
+ Description:  WP Slidebars Child Theme
+ Author:       Eric McNiece
+ Author URI:   http://emc2innovation.com
+ Template:     wp-slidebars
+ Version:      1.0
+ Tags:         Tags: slidebars, wp-slidebars, adchsm, jquery
+ Text Domain:  wp-slidebars-child
+*/
+
+@import url("../wp-slidebars/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */

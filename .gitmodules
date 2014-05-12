@@ -7,3 +7,6 @@
 [submodule "admin"]
 	path = admin
 	url = git://github.com/ReduxFramework/ReduxFramework/
+[submodule "assets/bootstrap"]
+	path = assets/bootstrap
+	url = git@github.com:twbs/bootstrap.git

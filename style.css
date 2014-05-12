@@ -11,4 +11,23 @@ Tags: slidebars, wp-slidebars, adchsm, jquery
 Text Domain: wp-slidebars
 
 Special thanks to https://github.com/adchsm for this great plugin.
+
+Try to resist editing this file - making a child theme is a far better idea. This file contains some essential
+style adjustments to get the basic slidebars-style.css to work within the WP environment.
 */
+
+.admin-bar .navbar-fixed-top,
+.admin-bar .sb-slidebar{
+	top:32px;
+}
+#logo img{
+	height:40px;
+}
+
+
+@media screen and ( max-width: 782px ) {
+	.admin-bar .navbar-fixed-top,
+	.admin-bar .sb-slidebar{
+		top:46px;
+	}
+}
